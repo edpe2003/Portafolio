@@ -32,6 +32,7 @@ body {
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+    transition: 0.5s;
 }
 
 .active {
@@ -218,4 +219,192 @@ input[type=submit]:hover {
 .curriculum img {
     border-radius: 0;
     float: right;
+}
+
+.texto-bloque p {
+    text-align: center;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.amarillo {
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: #FDFF91;
+    border-radius: 4px;
+    padding: 0.25em;
+    margin-left: 0.25em;
+}
+
+.verde {
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: #91FF94;
+    border-radius: 4px;
+    padding: 0.25em;
+    margin-left: 0.25em;
+}
+
+.rojo {
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: #FF9191;
+    border-radius: 4px;
+    padding: 0.25em;
+    margin-left: 0.25em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.boton {
+    width: 50%;
+    background-color: #1976d2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #90caf9;
+}
+
+@media (max-width: 1536px) {
+    .Proyectos-Grid {
+        display: grid;
+        margin: auto;
+        margin-top: 3em;
+        width: 90%;
+        height: 70%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4em;
+        padding-bottom: 30em;
+    }
+    #Proyectos {
+        height: 100em;
+    }
+    .formulario-grid {
+        display: grid;
+        margin: auto;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Foto {
+        width: 15em;
+    }
+    .inicio {
+        padding: 3em;
+        background-image: url(../img/fondo.svg);
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 5em;
+    }
+}
+
+@media (max-width: 640px) {
+    .Titulos {
+        font-weight: bold;
+        color: #1976d2;
+        font-size: 2em;
+    }
+    .contenido {
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 1em;
+    }
+    .Conocimientos-Grid {
+        display: grid;
+        margin: auto;
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
+
+@media (max-width: 490px) {
+    #Foto {
+        width: 15em;
+        margin-bottom: 3em;
+    }
+    .Titulos {
+        color: #1976d2;
+        font-size: 1em;
+    }
+    .contenido {
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 0.75em;
+    }
+    .Conocimientos-Grid {
+        display: grid;
+        margin: auto;
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    .SobreMi-Grid {
+        display: grid;
+        margin: auto;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        height: 100%;
+    }
+    .rojo {
+        display: inline-block;
+        font-size: 1em;
+        background-color: #FF9191;
+        border-radius: 4px;
+        padding: 0.2em;
+        margin-left: 0.25em;
+    }
+    .amarillo {
+        display: inline-block;
+        font-size: 1em;
+        background-color: #FDFF91;
+        border-radius: 4px;
+        padding: 0.2em;
+        margin-left: 0.25em;
+    }
+    .verde {
+        display: inline-block;
+        font-size: 1em;
+        background-color: #91FF94;
+        border-radius: 4px;
+        padding: 0.2em;
+        margin-left: 0.25em;
+    }
+}
+
+@media (max-width: 350px) {
+    .Conocimientos-Grid {
+        display: grid;
+        margin: auto;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+    #Proyectos {
+        height: 120em;
+    }
 }
