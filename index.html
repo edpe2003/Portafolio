@@ -17,21 +17,25 @@
         <a href="#Contacto"><b>Contacto</b></a>
     </div>
 
-    <section id="SobreMi" class="container">
-        <div class="SobreMi-Grid">
-            <img src="img/Foto.png" width="400em">
-            <div class="texto">
-                <h1>Sobre Mi</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae aut deleniti amet quibusdam inventore maxime, veniam illum obcaecati itaque? Corporis saepe culpa placeat, blanditiis delectus atque neque! Laboriosam, eius.Lorem,
-                    ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae aut deleniti amet quibusdam inventore maxime, veniam illum obcaecati itaque? Corporis saepe culpa placeat, blanditiis delectus atque neque! Laboriosam, eius.Lorem, ipsum
-                    dolor sit amet consectetur adipisicing elit. Nulla beatae aut deleniti amet quibusdam inventore maxime, veniam illum obcaecati itaque? Corporis saepe culpa placeat, blanditiis delectus atque neque! Laboriosam, eius.Lorem, ipsum dolor
-                    sit amet consectetur adipisicing elit. Nulla beatae aut deleniti amet quibusdam inventore maxime, veniam illum obcaecati itaque? Corporis saepe culpa placeat, blanditiis delectus atque neque! Laboriosam, eius.</p>
-            </div>
+    <section id="SobreMi">
+        <div class="inicio">
+            <h1 class="texto-centrado">Eduardo Piñero</h1>
+            <p class="texto-centrado">Desarrollador Wer Jr</p>
         </div>
+        <div class="SobreMi-Grid">
+            <img src="img/Foto.png" width="400em" id="Foto">
+            <div class="texto">
+                <h1 class="Titulos">Sobre Mi</h1>
+                <p class="contenido">Desarrollador Jr buscando insertarme en el Mercado laboral, con interés en tecnologías web, dispuesto a estudiar y aprender las tecnologías necesarias que se adecuen a la empresa.</p>
+                <br>
+                <div class="curriculum">
+                    <a href="documentos/CV_Eduardo_Piñero.pdf" class="link-curriculum">Mi CV<img src="img/curriculum.png" width="27em"></img></a>
+                </div>
+            </div>
     </section>
 
-    <section id="Conocimientos" class="container">
-        <h1 class="texto-centrado">Conocimientos</h1>
+    <section id="Conocimientos">
+        <h1 class="texto-centrado Titulos">Conocimientos</h1>
         <div class="Conocimientos-Grid">
             <div class="bloque">
                 <img src="img/html.png" width="120em" height="120em">
@@ -63,37 +67,37 @@
         </div>
     </section>
 
-    <section id="Proyectos" class="container">
-        <h1 class="texto-centrado">Proyectos</h1>
+    <section id="Proyectos">
+        <h1 class="texto-centrado Titulos">Proyectos</h1>
         <div class="Proyectos-Grid">
             <div class="bloque">
                 <h1 class="texto-centrado">ABM Persona</h1>
-                <p>Este fue uno de los primeros proyectos que realice, el back-end está hecho con PHP, y el front-end con HTML, JS y Bootstrap. El manejo de Base de Datos fue realizado con MySQL.</p>
+                <p class="contenido">Este fue uno de los primeros proyectos que realice, el back-end está hecho con PHP, y el front-end con HTML, JS y Bootstrap. El manejo de Base de Datos fue realizado con MySQL.</p>
             </div>
             <div class="bloque">
                 <h1 class="texto-centrado">Tienda</h1>
-                <p>Este proyecto lo realice hace un par de meses, fue para iniciar a aprender a trabajar con API-Rest, el back-end está hecho con PHP y el framework Laravel, y el front-end con HTML, CSS, JS, y Bootstrap, para consumir la API únicamente utilice
+                <p class="contenido">Este proyecto lo realice hace un par de meses, fue para iniciar a aprender a trabajar con API-Rest, el back-end está hecho con PHP y el framework Laravel, y el front-end con HTML, CSS, JS, y Bootstrap, para consumir la API únicamente utilice
                     JS. El manejo de Base de Datos fue realizado con MySQL.</p>
             </div>
             <div class="bloque">
                 <h1 class="texto-centrado">Proyecto Institución Educativa</h1>
-                <p>Este es el proyecto de la UTU en el que estuve trabajando este año, en el cual trabajamos con las tecnologías y lenguajes de programación: HTML, CSS, JS, SASS, JQUERY, BootStrap, PHP, PHPMailer.</p>
+                <p class="contenido">Este es el proyecto de la UTU en el que estuve trabajando este año 2021, en el cual trabajamos con las tecnologías y lenguajes de programación: HTML, CSS, JS, SASS, JQUERY, BootStrap, PHP, PHPMailer.</p>
             </div>
         </div>
     </section>
 
-    <section id="Contacto" class="container">
+    <section id="Contacto">
         <form>
+            <h1 class="Titulos texto-centrado">Contactame</h1>
             <div class="formulario-grid">
                 <div>
-                    <h1>Imagen</h1>
+                    <img src="img/email.svg">
                 </div>
-
                 <div class="formulario">
-                    <label for="de">De: </label>
+                    <label for="de" class="contenido">De: </label>
                     <input type="email" name="de" id="de">
-                    <label for="mensaje">Mensaje: </label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <label for="mensaje" class="contenido">Mensaje: </label>
+                    <textarea name="mensaje" id="mensaje" rows="4"></textarea>
                     <input type="submit" value="Enviar">
                 </div>
             </div>
