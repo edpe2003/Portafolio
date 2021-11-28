@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <title>Portafolio</title>
 </head>
 
@@ -15,17 +17,17 @@
             <img src="img/menu.png" width="25em" height="25em">
         </div>
         <div class="elemento-navbar">
-            <a href="#SobreMi"><b>Sobre Mi</b></a>
-            <a href="#Conocimientos"><b>Conocimientos</b></a>
-            <a href="#Proyectos"><b>Proyectos</b></a>
-            <a href="#Contacto"><b>Contacto</b></a>
+            <a href="#SobreMi" class="navbar-button"><b>Sobre Mi</b></a>
+            <a href="#Conocimientos" class="navbar-button"><b>Conocimientos</b></a>
+            <a href="#Proyectos" class="navbar-button"><b>Proyectos</b></a>
+            <a href="#Contacto" class="navbar-button"><b>Contacto</b></a>
         </div>
     </div>
 
     <section id="SobreMi">
         <div class="inicio">
             <h1 class="texto-centrado">Eduardo Piñero</h1>
-            <p class="texto-centrado">Desarrollador Web Jr</p>
+            <p class="texto-centrado" data-aos="fade-up" data-aos-duration="2000">Desarrollador Web Jr</p>
         </div>
         <div class="SobreMi-Grid">
             <img src="img/Foto.png" width="400em" id="Foto">
@@ -33,12 +35,17 @@
                 <h1 class="Titulos">Sobre Mi</h1>
                 <p class="contenido">Desarrollador Jr buscando insertarme en el Mercado laboral, con interés en tecnologías web, dispuesto a estudiar y aprender las tecnologías necesarias que se adecuen a la empresa.</p>
                 <br>
-                <div class="curriculum">
-                    <a href="documentos/CV_Eduardo_Piñero.pdf" class="link-curriculum">Mi CV<img src="img/curriculum.png" width="27em"></img></a>
-                </div>
-                <div class="iconos">
-                    <a href="https://www.linkedin.com/in/eduardopiñero"><img src="img/linkedin.png" width="40em" height="40em"></a>
-                    <a href="https://github.com/edpe2003"><img src="img/github.png" width="40em" height="40em"></a>
+                <div class="padre-curriculum">
+                    <a href="documentos/CV_Eduardo_Piñero.pdf">
+                        <div class="curriculum">
+                            <p class="link-curriculum">Mi CV</p>
+                            <img src="img/curriculum.png" width="25em"></img>
+                        </div>
+                    </a>
+                    <div class="iconos">
+                        <a href="https://www.linkedin.com/in/eduardopiñero" data-aos="fade-left"><img src="img/linkedin.png" width="40em" height="40em"></a>
+                        <a href="https://github.com/edpe2003" data-aos="fade-left"><img src="img/github.png" width="40em" height="40em"></a>
+                    </div>
                 </div>
             </div>
     </section>
@@ -46,8 +53,7 @@
     <section id="Conocimientos">
         <h1 class="texto-centrado Titulos">Conocimientos</h1>
         <div class="Conocimientos-Grid">
-
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img class="prueba" src="img/html.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
@@ -55,56 +61,56 @@
 
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/css-3.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="amarillo">Medio</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/javascript.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="amarillo">Medio</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/bootstrap.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="verde">Avanzado</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/php.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="verde">Avanzado</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/Laravel.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="rojo">Basico</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/git.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="amarillo">Medio</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/docker.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
                     <div class="rojo">Basico</div>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="fade-down">
                 <img src="img/sql.png" width="120em" height="120em">
                 <div class="texto-bloque">
                     <p>Nivel</p><br>
@@ -117,21 +123,21 @@
     <section id="Proyectos">
         <h1 class="texto-centrado Titulos">Proyectos</h1>
         <div class="Proyectos-Grid">
-            <div class="bloque">
+            <div class="bloque" data-aos="zoom-out" data-aos-duration="800">
                 <h1 class="texto-centrado">ABM Persona</h1>
                 <div class="flex">
                     <p class="contenido">Primer Proyecto API-Rest, el back-end está hecho con PHP y el framework Laravel, y el front-end con HTML, CSS, JS, y Bootstrap, para consumir la API únicamente utilice JS. El manejo de Base de Datos fue realizado con MySQL.</p>
                     <a class="boton" href="https://github.com/edpe2003/API-Rest-Laravel-ABMPersona.git">Ver Repositorio</a>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="zoom-out" data-aos-duration="800">
                 <h1 class="texto-centrado">Tienda</h1>
                 <div class="flex">
                     <p class="contenido">Este fue uno de los primeros proyectos que realice, el back-end está hecho con PHP, y el front-end con HTML, JS y Bootstrap. El manejo de Base de Datos fue realizado con MySQL.</p>
                     <a class="boton" href="https://github.com/edpe2003/Proyecto-PHP-POO-Tienda.git">Ver Repositorio</a>
                 </div>
             </div>
-            <div class="bloque">
+            <div class="bloque" data-aos="zoom-out" data-aos-duration="800">
                 <h1 class="texto-centrado">Institución Educativa</h1>
                 <div class="flex">
                     <p class="contenido">Este es el proyecto de la UTU en el que estuve trabajando este año 2021, en el cual trabajamos con las tecnologías y lenguajes de programación: HTML, CSS, JS, SASS, JQUERY, BootStrap, PHP, PHPMailer.</p>
@@ -146,7 +152,7 @@
             <h1 class="Titulos texto-centrado">Contactame</h1>
             <div class="formulario-grid">
                 <div>
-                    <img src="img/email.svg">
+                    <img src="img/email.svg" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                 </div>
                 <div class="formulario">
                     <label for="de" class="contenido">De: </label>
@@ -167,6 +173,10 @@
     </div>
 
     <script src="js/functions.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
