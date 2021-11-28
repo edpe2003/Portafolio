@@ -17,7 +17,7 @@ body {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(97, 97, 97);
 }
 
 .navbar a {
@@ -27,9 +27,27 @@ body {
     text-decoration: none;
     font-size: 17px;
     margin-left: 2em;
+    text-align: center;
 }
 
 .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+}
+
+#navbar {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    border-bottom: solid 2.6px rgb(53, 52, 52);
+}
+
+.elemento-navbar {
+    margin: auto;
+}
+
+#navbar:hover {
     background-color: #ddd;
     color: black;
     transition: 0.5s;
@@ -333,6 +351,12 @@ input[type=submit]:hover {
     }
     #Foto {
         margin-bottom: 3em;
+    }
+    .navbar a {
+        padding-left: 0;
+        display: block;
+        width: 100%;
+        margin: 0;
     }
 }
 
