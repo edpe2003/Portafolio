@@ -272,146 +272,6 @@ input[type=submit]:hover {
     background-color: #90caf9;
 }
 
-@media (max-width: 1536px) {
-    .Proyectos-Grid {
-        display: grid;
-        margin: auto;
-        margin-top: 3em;
-        width: 90%;
-        height: 70%;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 4em;
-        padding-bottom: 30em;
-    }
-    #Proyectos {
-        height: 100em;
-    }
-    .formulario-grid {
-        display: grid;
-        margin: auto;
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-        height: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    #Foto {
-        width: 15em;
-    }
-    .inicio {
-        padding: 3em;
-        background-image: url(../img/fondo.svg);
-        color: white;
-        font-size: 1.5em;
-        margin-bottom: 5em;
-    }
-}
-
-@media (max-width: 677px) {
-    .SobreMi-Grid {
-        display: grid;
-        margin: auto;
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-        height: 100%;
-    }
-    #Foto {
-        width: 15em;
-        margin-bottom: 3em;
-    }
-}
-
-@media (max-width: 640px) {
-    .Titulos {
-        font-weight: bold;
-        color: #1976d2;
-        font-size: 2em;
-    }
-    .contenido {
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 1em;
-    }
-    .Conocimientos-Grid {
-        display: grid;
-        margin: auto;
-        width: 90%;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
-    }
-}
-
-@media (max-width: 530px) {
-    #Proyectos {
-        padding-bottom: 8em;
-    }
-    .Titulos {
-        color: #1976d2;
-        font-size: 1.5em;
-    }
-    .contenido {
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 0.75em;
-    }
-    .Conocimientos-Grid {
-        display: grid;
-        margin: auto;
-        width: 90%;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
-    }
-    h1 {
-        font-size: 1.5em;
-    }
-    p {
-        font-size: 0.75em;
-    }
-    .rojo {
-        display: inline-block;
-        font-size: 1em;
-        background-color: #FF9191;
-        border-radius: 4px;
-        padding: 0.2em;
-        margin-left: 0.25em;
-    }
-    .amarillo {
-        display: inline-block;
-        font-size: 1em;
-        background-color: #FDFF91;
-        border-radius: 4px;
-        padding: 0.2em;
-        margin-left: 0.25em;
-    }
-    .verde {
-        display: inline-block;
-        font-size: 1em;
-        background-color: #91FF94;
-        border-radius: 4px;
-        padding: 0.2em;
-        margin-left: 0.25em;
-    }
-    #Proyectos .bloque {
-        height: 25em;
-    }
-}
-
-@media (max-width: 350px) {
-    .Conocimientos-Grid {
-        display: grid;
-        margin: auto;
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-    }
-    #Proyectos {
-        height: 120em;
-    }
-}
-
 .footer {
     width: 100%;
     height: 4em;
@@ -437,4 +297,80 @@ input[type=submit]:hover {
 
 .iconos img {
     border-radius: 0;
+}
+
+@media (max-width: 1536px) {
+    .Proyectos-Grid {
+        margin-top: 3em;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4em;
+    }
+    #Proyectos {
+        height: 97em;
+    }
+    .formulario-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    #Foto {
+        width: 15em;
+    }
+}
+
+@media (max-width: 768px) {
+    .inicio {
+        padding: 3em;
+        font-size: 1.5em;
+        margin-bottom: 5em;
+    }
+}
+
+@media (max-width: 677px) {
+    .SobreMi-Grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #Foto {
+        margin-bottom: 3em;
+    }
+}
+
+@media (max-width: 640px) {
+    .Conocimientos-Grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 530px) {
+    .contenido {
+        font-size: 0.75em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    .rojo {
+        font-size: 1em;
+    }
+    .amarillo {
+        font-size: 1em;
+    }
+    .verde {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 350px) {
+    .Conocimientos-Grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #Proyectos {
+        height: 110em;
+    }
+    #Proyectos .bloque {
+        height: 25em;
+    }
 }
