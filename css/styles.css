@@ -17,7 +17,7 @@ body {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(160, 160, 160);
 }
 
 .navbar a {
@@ -40,7 +40,7 @@ body {
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     text-align: center;
-    border-bottom: solid 2.6px rgb(53, 52, 52);
+    border-bottom: solid 1.5px rgb(53, 52, 52);
 }
 
 .elemento-navbar {

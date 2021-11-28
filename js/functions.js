@@ -5,7 +5,6 @@ navbar.style.display = "none";
 icono_navbar.addEventListener("click", () => {
     if (contador % 2 != 0) {
         navbar.style.display = "none";
-        icono_navbar.style.display = "block";
     } else {
         navbar.style.display = "block";
     }
