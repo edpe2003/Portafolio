@@ -335,6 +335,53 @@ input[type=submit]:hover {
     border-radius: 0;
 }
 
+#Institucion {
+    margin-top: 5em;
+    background-color: white;
+    height: 50em;
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    padding-top: 3em;
+    margin-bottom: 6em;
+}
+
+#Institucion h1 {
+    border-bottom: solid 1.5px rgb(53, 52, 52);
+    padding-bottom: 1em;
+}
+
+#Institucion p {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.texto_Institucion {
+    text-align: left;
+    padding-left: 2em;
+}
+
+.boton_Institucion {
+    text-align: center;
+    display: block;
+    background-color: #1976d2;
+    margin: auto;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 70%;
+}
+
+.inicio-Institucion {
+    margin-top: 3em;
+}
+
 @media (max-width: 1536px) {
     .Proyectos-Grid {
         margin-top: 3em;
@@ -415,5 +462,11 @@ input[type=submit]:hover {
     }
     #Proyectos .bloque {
         height: 25em;
+    }
+}
+
+@media (max-width: 833px) {
+    #Institucion {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
