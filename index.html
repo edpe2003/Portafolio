@@ -20,7 +20,7 @@
     <section id="SobreMi">
         <div class="inicio">
             <h1 class="texto-centrado">Eduardo Piñero</h1>
-            <p class="texto-centrado">Desarrollador Wer Jr</p>
+            <p class="texto-centrado">Desarrollador Web Jr</p>
         </div>
         <div class="SobreMi-Grid">
             <img src="img/Foto.png" width="400em" id="Foto">
@@ -30,6 +30,10 @@
                 <br>
                 <div class="curriculum">
                     <a href="documentos/CV_Eduardo_Piñero.pdf" class="link-curriculum">Mi CV<img src="img/curriculum.png" width="27em"></img></a>
+                </div>
+                <div class="iconos">
+                    <a href="https://www.linkedin.com/in/eduardopiñero"><img src="img/linkedin.png" width="40em" height="40em"></a>
+                    <a href="https://github.com/edpe2003"><img src="img/github.png" width="40em" height="40em"></a>
                 </div>
             </div>
     </section>
@@ -111,19 +115,19 @@
             <div class="bloque">
                 <h1 class="texto-centrado">ABM Persona</h1>
                 <div class="flex">
-                    <p class="contenido">Este fue uno de los primeros proyectos que realice, el back-end está hecho con PHP, y el front-end con HTML, JS y Bootstrap. El manejo de Base de Datos fue realizado con MySQL.</p>
+                    <p class="contenido">Primer Proyecto API-Rest, el back-end está hecho con PHP y el framework Laravel, y el front-end con HTML, CSS, JS, y Bootstrap, para consumir la API únicamente utilice JS. El manejo de Base de Datos fue realizado con MySQL.</p>
                     <a class="boton" href="https://github.com/edpe2003/API-Rest-Laravel-ABMPersona.git">Ver Repositorio</a>
                 </div>
             </div>
             <div class="bloque">
                 <h1 class="texto-centrado">Tienda</h1>
                 <div class="flex">
-                    <p class="contenido">Primer Proyecto API-Rest, el back-end está hecho con PHP y el framework Laravel, y el front-end con HTML, CSS, JS, y Bootstrap, para consumir la API únicamente utilice JS. El manejo de Base de Datos fue realizado con MySQL.</p>
+                    <p class="contenido">Este fue uno de los primeros proyectos que realice, el back-end está hecho con PHP, y el front-end con HTML, JS y Bootstrap. El manejo de Base de Datos fue realizado con MySQL.</p>
                     <a class="boton" href="https://github.com/edpe2003/Proyecto-PHP-POO-Tienda.git">Ver Repositorio</a>
                 </div>
             </div>
             <div class="bloque">
-                <h1 class="texto-centrado">Proyecto Institución Educativa</h1>
+                <h1 class="texto-centrado">Institución Educativa</h1>
                 <div class="flex">
                     <p class="contenido">Este es el proyecto de la UTU en el que estuve trabajando este año 2021, en el cual trabajamos con las tecnologías y lenguajes de programación: HTML, CSS, JS, SASS, JQUERY, BootStrap, PHP, PHPMailer.</p>
                     <a class="boton" href="https://github.com/edpe2003/Proyecto-Institucion-Educativa.git">Ver Repositorio</a>
@@ -133,7 +137,7 @@
     </section>
 
     <section id="Contacto">
-        <form>
+        <form action="https://formsubmit.co/edpe2003@gmail.com" method="POST">
             <h1 class="Titulos texto-centrado">Contactame</h1>
             <div class="formulario-grid">
                 <div>
@@ -141,16 +145,22 @@
                 </div>
                 <div class="formulario">
                     <label for="de" class="contenido">De: </label>
-                    <input type="email" name="de" id="de">
+                    <input type="email" name="de" id="de" required>
                     <label for="mensaje" class="contenido">Mensaje: </label>
-                    <textarea name="mensaje" id="mensaje" rows="4"></textarea>
+                    <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
                     <input type="submit" value="Enviar">
                 </div>
             </div>
         </form>
     </section>
 
-    <script src="js/functions.js"></script>
+    <div class="footer">
+        <div class="texto-centrado">
+            <a href="www.linkedin.com/in/eduardopiñero"><img src="img/linkedin.png" width="45em" height="45em"></a>
+            <a href="https://github.com/edpe2003"><img src="img/github.png" width="45em" height="45em"></a>
+        </div>
+    </div>
+
 </body>
 
 </html>
